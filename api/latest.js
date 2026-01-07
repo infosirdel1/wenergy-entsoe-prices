@@ -5,5 +5,6 @@ export default function handler(req, res) {
     peak_avg: 0.35,
     offpeak_avg: 0.15,
     date: new Date().toISOString().slice(0, 10)
+    
   });
 }
